@@ -2,10 +2,12 @@ import React from "react";
 import styles from "../style";
 import { arrowUp } from "../assets";
 
-const GetStarted = () => (
-  <div
-    className={`${styles.flexCenter} W-[140px] h-[140px] rounded-full bg-blue-gradient`}
-  ></div>
-);
+const GetStarted = () => {
+  return (
+    <div
+      className={`${styles.flexCenter} W-[140px] h-[140px] rounded-full bg-blue-gradient`}
+    ></div>
+  );
+};
 
 export default GetStarted;
